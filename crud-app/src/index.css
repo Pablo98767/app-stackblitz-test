@@ -38,8 +38,8 @@ html {
 /**
  * Remove the margin in all browsers.
  */
-.small-container {
-  background-image: url('/home/projects/crud-app/public/high-angle-people-traveling-by-train.jpg');
+ .small-container {
+  background-image: url('vscode-remote://webcontainer/home/Pablo98767/app-stackblitz-test/crud-app/public/background.jpg');
   background-size: cover;
   background-position: center;
   /* Outros estilos conforme necessário */
@@ -47,6 +47,7 @@ html {
   height: 100vh; /* Isso faz com que o componente ocupe toda a altura da tela */
   /* Adicione outros estilos conforme necessário */
 }
+
 
 
 /**
@@ -217,12 +218,20 @@ select {
 /**
  * Correct the inability to style clickable types in iOS and Safari.
  */
-button,
-[type='button'],
-[type='reset'],
-[type='submit'] {
-  -webkit-appearance: button;
-}
+ button,
+ [type='button'],
+ [type='reset'],
+ [type='submit'] {
+   /* Adicione estilos aqui para os botões */
+   /* Por exemplo: */
+   background-color: #007bff; /* Azul */
+   color: #fff; /* Texto branco */
+   padding: 10px 20px; /* Espaçamento interno */
+   border: none; /* Sem borda */
+   border-radius: 5px; /* Borda arredondada */
+   cursor: pointer; /* Cursor de mão */
+ }
+ 
 
 /**
  * Remove the inner border and padding in Firefox.
@@ -311,12 +320,22 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-[type='search'] {
-  -webkit-appearance: textfield;
+ [type='search'] {
+  /* Remova -webkit-appearance */
+  /* -webkit-appearance: textfield; */
   /* 1 */
   outline-offset: -2px;
   /* 2 */
+  /* Adicione estilos personalizados conforme necessário */
+  /* Por exemplo: */
+  background-color: #ffffff; /* Cor de fundo */
+  border: 1px solid #ced4da; /* Borda */
+  border-radius: 4px; /* Borda arredondada */
+  padding: 8px 10px; /* Espaçamento interno */
+  font-size: 14px; /* Tamanho da fonte */
 }
+
+
 
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
@@ -800,32 +819,32 @@ dd {
 /**
  * Buttons
  */
-.button,
-a.button,
-button,
-[type='submit'],
-[type='reset'],
-[type='button'] {
-  -webkit-appearance: none;
-  display: inline-block;
-  border: 1px solid #0366ee;
-  border-radius: 4px;
-  background: #0366ee;
-  color: #ffffff;
-  font-weight: 600;
-  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica,
-    Arial, sans-serif;
-  font-size: 1rem;
-  text-transform: none;
-  padding: 0.75rem 1.25rem;
-  margin: 0 0 0.5rem 0;
-  vertical-align: middle;
-  text-align: center;
-  cursor: pointer;
-  text-decoration: none;
-  line-height: 1;
-}
-
+ .button,
+ a.button,
+ button,
+ [type='submit'],
+ [type='reset'],
+ [type='button'] {
+   /* Remova -webkit-appearance */
+   /* -webkit-appearance: none; */
+   display: inline-block;
+   border: 1px solid #0366ee;
+   border-radius: 4px;
+   background: #0366ee;
+   color: #ffffff;
+   font-weight: 600;
+   font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
+   font-size: 1rem;
+   text-transform: none;
+   padding: 0.75rem 1.25rem;
+   margin: 0 0 0.5rem 0;
+   vertical-align: middle;
+   text-align: center;
+   cursor: pointer;
+   text-decoration: none;
+   line-height: 1;
+ }
+ 
 .button:hover,
 a.button:hover,
 button:hover,
@@ -1024,11 +1043,18 @@ legend {
 
 select {
   color: #404040;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAJCAYAAAA/33wPAAAAvklEQVQoFY2QMQqEMBBFv7ERa/EMXkGw11K8QbDXzuN4BHv7QO6ifUgj7v4UAdlVM8Uwf+b9YZJISnlqrfEUZVlinucnBGKaJgghbiHOyLyFKIoCbdvecpyReYvo/Ma2bajrGtbaC58kCdZ1RZ7nl/4/4d5EsO/7nzl7IUtodBexMMagaRrs+06JLMvcNWmaOv2W/C/TMAyD58dxROgSmvxFFMdxoOs6lliWBXEcuzokXRbRoJRyvqqqQvye+QDMDz1D6yuj9wAAAABJRU5ErkJggg==)
-    right center no-repeat;
+  /* Remova -webkit-appearance e -moz-appearance */
+  /* -webkit-appearance: none; */
+  /* -moz-appearance: none; */
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAJCAYAAAA/33wPAAAAvklEQVQoFY2QMQqEMBBFv7ERa/EMXkGw11K8QbDXzuN4BHv7QO6ifUgj7v4UAdlVM8Uwf+b9YZJISnlqrfEUZVlinucnBGKaJgghbiHOyLyFKIoCbdvecpyReYvo/Ma2bajrGtbaC58kCdZ1RZ7nl/4/4d5EsO/7nzl7IUtodBexMMagaRrs+06JLMvcNWmaOv2W/C/TMAyD58dxROgSmvxFFMdxoOs6lliWBXEcuzokXRbRoJRyvqqqQvye+QDMDz1D6yuj9wAAAABJRU5ErkJggg==) right center no-repeat;
   line-height: 1;
+  /* Adicione estilos personalizados conforme necessário */
+  /* Por exemplo: */
+  border: 1px solid #ced4da; /* Borda */
+  border-radius: 4px; /* Borda arredondada */
+  padding: 8px; /* Espaçamento interno */
+  font-size: 14px; /* Tamanho da fonte */
+  /* Outros estilos conforme necessário */
 }
 
 select::-ms-expand {
